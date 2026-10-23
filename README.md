@@ -1,6 +1,6 @@
 # Improving the integer multiplication bound
 
-**Can we improve the bound in OpenAI's [Integer multiplication below $n\log n$](https://github.com/openai/math/blob/main/preprints/Integer-multiplication-below-n-log-n-September-23-2026/paper.pdf)?**
+Multiplying very large integers is a basic task in computation. How the work grows with the number of digits tells us what larger calculations will cost. This agenda asks whether we can improve the algorithm in OpenAI's [*Integer multiplication below $n\log n$*](https://github.com/openai/math/blob/main/preprints/Integer-multiplication-below-n-log-n-September-23-2026/paper.pdf).
 
 The paper gives an algorithm for multiplying two $n$-bit integers in time
 
