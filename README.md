@@ -1,1 +1,13 @@
-Multiplication is elementary; its ultimate speed is not. A tiny claimed saving below the classical bound opens a larger question: how much of arithmetic’s cost is unavoidable, and how much belongs to our algorithms? [The target](https://github.com/kunstkabinett/integer-multiplication/issues/9).
+# Improving the integer multiplication bound
+
+Multiplying very large integers is a basic task in computation. How the work grows with the number of digits tells us what larger calculations will cost. This agenda asks whether we can improve the algorithm in OpenAI's [*Integer multiplication below $n\log n$*](https://github.com/openai/math/blob/main/preprints/Integer-multiplication-below-n-log-n-September-23-2026/paper.pdf).
+
+The paper gives an algorithm for multiplying two $n$-bit integers in time
+
+$$
+O\!\left(n(\log n)^{1-\kappa}\right),\qquad \kappa=2^{-182},
+$$
+
+on a fixed multitape Turing machine. The aim is to obtain a better asymptotic bound in the same model, in particular by increasing $\kappa$.
+
+The [CrocSwap project](https://github.com/CrocSwap/integer-mult-bounds) already reports substantial improvements conditional on the paper's framework. It provides a starting point for further work. Improvements to its constructions and different approaches are both welcome.
