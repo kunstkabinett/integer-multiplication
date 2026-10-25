@@ -12,7 +12,7 @@ The saving is real, but only just: the factor $(\log n)^{\kappa}$ does not reach
 
 Community work in the CrocSwap repository already reports $\kappa\approx5.1\times10^{-5}$ within the paper's framework.[^crocswap] Its arithmetic has been replayed here; its physical constructions and the full theorem have not yet been independently checked.
 
-The [problem](https://github.com/kunstkabinett/integer-multiplication/issues/9) is to increase $\kappa$, with a complete proof in the same model: by verifying and extending the community constructions, or by a different route. The [research notes](questions/) describe eight lines of attack, from new circuit families to obstructions for restricted ones.
+The [problem](https://github.com/project-wk/integer-multiplication/issues/9) is to increase $\kappa$, with a complete proof in the same model: by verifying and extending the community constructions, or by a different route. The [research notes](questions/) describe eight lines of attack, from new circuit families to obstructions for restricted ones.
 
 [^schonhage-strassen]: Arnold Schönhage and Volker Strassen, *Schnelle Multiplikation großer Zahlen*, **Computing** 7 (1971), 281–292.
 [^harvey-vdh]: David Harvey and Joris van der Hoeven, *Integer multiplication in time $O(n\log n)$*, **Annals of Mathematics** 193 (2021), 563–617; [preprint](https://hal.science/hal-02070778) (2019).
